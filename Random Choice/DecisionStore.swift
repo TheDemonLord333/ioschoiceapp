@@ -3,7 +3,7 @@
 //  Random Choice
 //
 
-import Foundation
+import SwiftUI
 import Combine
 
 final class DecisionStore: ObservableObject {
