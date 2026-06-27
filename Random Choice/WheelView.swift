@@ -72,8 +72,8 @@ struct WheelView: View {
     }
 
     private func labelOffset(forIndex index: Int) -> CGSize {
-        let angle = (slice * Double(index) + slice / 2 - 90) * .pi / 180
-        let radius: CGFloat = 90
+        let angle: Double = (slice * Double(index) + slice / 2 - 90) * .pi / 180
+        let radius: Double = 90
         return CGSize(width: radius * cos(angle), height: radius * sin(angle))
     }
 
